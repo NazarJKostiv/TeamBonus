@@ -7,8 +7,9 @@ const app = express();
 // Serve only the static files form the dist directory
 app.use(express.static(__dirname + '/dist/TeamBonus'));
 
-app.get('/*', function(req,res) {
-    
+app.get('/*', function(req,res) {est_djangoServer
+
+
 res.sendFile(path.join(__dirname+'/dist/TeamBonus/index.html'));
 });
 
